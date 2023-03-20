@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_check"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Alhumdulillah"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <TextView
+        android:id="@+id/txtnodisorder"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="No symptoms detected"
+        android:textAllCaps="true"
+        android:textColor="@color/green"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <Button
+        android:id="@+id/btnendtestpassed"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_buttons"
+        android:backgroundTint="@color/green"
+        android:text="End Test"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+        />
+</LinearLayout>

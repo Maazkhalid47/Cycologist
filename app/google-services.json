@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "190104069132",
+    "project_id": "cycologist",
+    "storage_bucket": "cycologist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190104069132:android:85929abb3087ec71063a29",
+        "android_client_info": {
+          "package_name": "com.example.cycologist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190104069132-shoskf60ascs9793ppqjnvhahtcncke7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cycologist",
+            "certificate_hash": "53eac7505c253671307a41f3eda5092cf92d7139"
+          }
+        },
+        {
+          "client_id": "190104069132-6nj0uqdjd81gs13rs4u2j46000e3gvqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvvDTBFWqziUdQp2IIdX7ef_Z6GHrsBlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190104069132-6nj0uqdjd81gs13rs4u2j46000e3gvqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

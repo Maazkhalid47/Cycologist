@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="CycoLogist"
+        android:textAlignment="center"
+        android:textColor="#1A0449"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <FrameLayout
+        android:id="@+id/frameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round_frame"
+        android:padding="15dp"
+        android:backgroundTint="#1A1A0449"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerLogin">
+
+
+
+        <EditText
+            android:id="@+id/edtuser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:inputType="textPersonName"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_useraccount"
+            android:drawableTint="@color/sweetblue"
+            android:drawablePadding="16dp"
+            android:hint="Username"
+            android:paddingStart="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edtpswdL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:inputType="textPassword"
+            android:background="@drawable/custom_input"
+            android:drawableTint="@color/sweetblue"
+            android:drawableStart="@drawable/ic_key"
+            android:drawablePadding="16dp"
+            android:hint="Password"
+            android:paddingStart="5dp" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_buttons"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/frgtpswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Forgot your password? Reset"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLogin" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#801A0449"
+        app:layout_constraintBottom_toTopOf="@+id/signuptxt"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/signuptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Sign Up."
+        android:textColor="#1A0449"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout></ScrollView>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        tools:context=".Signup">
+
+        <FrameLayout
+            android:id="@+id/framesignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_frame"
+            android:backgroundTint="#1A1A0449"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/sweetblue"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+
+            <EditText
+                android:id="@+id/edtfname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/sweetblue"
+                android:hint="Father Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/edtusernameS"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_useraccount"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/sweetblue"
+                android:hint="Username"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <EditText
+                android:id="@+id/edtage"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/custom_input"
+                android:digits="0123456789"
+                android:drawableStart="@drawable/ic_baseline_android_24"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/sweetblue"
+                android:hint="Age"
+                android:inputType="number"
+                android:maxLength="2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <EditText
+                android:id="@+id/edtphone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="210dp"
+                android:background="@drawable/custom_input"
+                android:digits="0123456789"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/sweetblue"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <EditText
+                android:id="@+id/edtemailS"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="260dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/sweetblue"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <EditText
+                android:id="@+id/edtpswdS"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_key"
+                android:drawablePadding="16dp"
+                android:drawableTint="@color/sweetblue"
+                android:hint="Password"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp" />
+
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="360dp"
+                android:layout_marginBottom="8dp"
+                android:checkedButton="@id/male"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/gender_background_selector"
+                    android:button="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_male"
+                    android:padding="16dp"
+                    android:text="male"
+                    android:textAlignment="center"
+                    android:textColor="@color/gender_text_selector"
+                    android:textSize="10sp"
+                    app:drawableTint="@color/gender_text_selector" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/gender_background_selector"
+                    android:button="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_female"
+                    android:padding="16dp"
+                    android:text="female"
+                    android:textAlignment="center"
+                    android:textColor="@color/gender_text_selector"
+                    android:textSize="10sp"
+                    app:drawableTint="@color/gender_text_selector" />
+
+            </RadioGroup>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/round_buttons"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/framesignup"
+            app:layout_constraintVertical_bias="0.1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#1A0449"
+            app:layout_constraintBottom_toTopOf="@+id/logintxt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/logintxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Already have an account? Login."
+            android:textColor="#1A0449"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

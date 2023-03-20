@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context=".info">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@drawable/gradient_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="SOME FACTS ABOUT MENTAL DISEASES"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="330dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Maaz Khalid, Iqra University"
+            android:textColor="#D1D0D0"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poynter_text_regular"
+        android:paddingStart="10dp"
+        android:text="The burden of mental disorders worldwide demonstrates a major public health problem that affects patients, society, and nations as a whole. Research must be done to find effective ways to deal with the increasing burden of mental disorders. Given the growing evidence that mental disorders are disorders of the brain and that they can be treated effectively with both psychosocial counseling and psychotropic medications, intervention packages could be developed to deal with the increasing burden. Such packages should be tested for real-world effectiveness and their cost-effectiveness should be demonstrated to guide policymakers to choose from among many other non-mental health interventions. The transportability and sustainability of intervention packages should be studied in public health research and a link between efficacy, effectiveness, cost-effectiveness, generalizability, and sustainability should be demonstrated. The World Health Organization's initiative on the World Mental Health 2000 Survey will provide the first basic epidemiologic data. Together with other data, the initiative will provide solid evidence for including mental disorders into essential treatment packages. In this way, parity can be achieved for mental disorders and mental health can be mainstreamed into health and public health practice.\n\nDepression\n\nDepression is a common illness worldwide, with an estimated 3.8% of the population affected, including 5.0% among adults and 5.7% among adults older than 60 years. Approximately 280 million people in the world have depression.\nSymptoms:\n\nDepression can include:\n\n•Trouble concentrating, remembering details, and making decisions\n•Fatigue\n•Feelings of guilt, worthlessness, and helplessness\n•Pessimism and hopelessness\n•Insomnia, early-morning wakefulness, or sleeping too much\n•Crankiness or irritability\n•Restlessness\n•Loss of interest in things once pleasurable, including sex\n•Overeating, or appetite loss\n•Aches, pains, headaches, or cramps that won\'t go away\n•Digestive problems that don\'t get better, even with treatment\n•Persistent sad, anxious, or empty feelings\n•Suicidal thoughts or suicide attempts\n \n Anxiety\n
+
+The early years of the 21st century have witnessed a worldwide epidemic of poor mental health and related illnesses. But while depression is the condition most will associate with mental health issues, and the leading cause of disability worldwide, it is not the number one mental health concern people face. \n\n
+
+That unwanted accolade goes to anxiety. \n\n
+
+An estimated 275 million people suffer from anxiety disorders. That’s around 4% of the global population, with a spread of between 2.5% and 6.5% of population per country. Around 62% of those suffering from anxiety are female (170 million), compared with 105 million male sufferers. \n\n
+
+Symptoms: \n\n
+
+Anxiety disorders can follow different courses, but the most commonly experienced symptoms include: \n\n
+
+Apprehension : worrying about future misfortunes, feeling on edge, having difficulty concentrating\n\n
+
+Motor tension : restlessness and fidgeting, tension headaches, trembling, inability to relax\n\n
+
+Autonomic over activity: light-headedness, sweating, abnormally high heart-rate (tachycardia) or abnormally rapid breathing (tachypnoea), pain in the upper abdomen (epigastric discomfort), dizziness, and dry mouth. \n\nPTSD\n\n\n
+
+PTSD can occur after you have been through a trauma. A trauma is a shocking and dangerous event that you see or that happens to you. During this type of event, you think that your life or others' lives are in danger. \n\n
+
+Going through trauma is not rare. About 6 of every 10 men (or 60%) and 5 of every 10 women (or 50%) experience at least one trauma in their lives. Women are more likely to experience sexual assault and child sexual abuse. Men are more likely to experience accidents, physical assault, combat, disaster, or to witness death or injury. \n\n
+
+PTSD can happen to anyone. It is not a sign of weakness. A number of factors can increase the chance that someone will develop PTSD, many of which are not under that person's control. For example, if you were directly exposed to the trauma or injured, you are more likely to develop PTSD. \n\n
+
+Symptoms: \n\n
+
+Changes in physical and emotional reactions\n\n
+
+•	Being easily startled or frightened. \n
+•	Always being on guard for danger.\n
+•	Self-destructive behaviour, such as drinking too much or driving too fast. \n
+•	Trouble sleeping.\n
+•	Trouble concentrating.\n
+•	Irritability, angry outbursts or aggressive behaviour. \n
+•	Overwhelming guilt or shame. \n\n\n
+
+
+Suicidal ideation \n\n
+
+The World Health Organization conducted community surveys in 21 countries (n >100,000 individuals) and found that the 12-month prevalence of suicidal ideation (thoughts) was approximately 2 percent, and that the lifetime prevalence was 9 percent. \n\n
+
+Other findings from the cross-national study included the following : \n\n
+
+	Among individuals with a lifetime history of suicidal ideation, the probability of ever making a plan is approximately 33 percent, and the probability of ever making a suicide attempt is approximately 30 percent. \n\n
+
+	Among individuals with a lifetime history of suicidal ideation and a plan, the probability of attempting suicide was approximately 55 percent; among ideators without a plan, the probability of attempting suicide was only 15 percent. \n\n
+
+	Consistently across countries, about 60 percent of the transitions from suicidal ideation to suicide plan, and from plan to suicide attempt occurred in the first year after onset of suicidal ideation. \n\n
+
+Symptoms: \n\n
+
+Suicide warning signs or suicidal thoughts include: \n\n
+•	Talking about suicide — for example, making statements such as Im going to kill myself, I wish I were dead or I wish I hadn't been born.\n
+•	Getting the means to take your own life, such as buying a gun or stockpiling pills\n
+•	Withdrawing from social contact and wanting to be left alone\n
+•	Having mood swings, such as being emotionally high one day and deeply discouraged the next\n
+•	Being preoccupied with death, dying or violence\n
+•	Feeling trapped or hopeless about a situation\n
+•	Increasing use of alcohol or drugs\n
+•	Changing normal routine, including eating or sleeping patterns\n\n
+
+Aggressive behaviour\n\n
+
+Aggression is overt or covert and can be defined in general terms as feelings of anger associated with hostile or violent behaviours that may result in harm or injure another person. Human aggression can be subdivided into direct and indirect. Direct aggression is characterized by physical or verbal behaviours and is associated to cause harm to someone. Indirect aggression is characterized by behaviours that may cause harm to the social relations of an individual or group. \n\n
+
+Each year, more than 1.3 million people lose their lives worldwide as a result of violence and aggressive behaviours including self-directed, interpersonal, and collective. Among people aged 15 to 44 years, violence and aggressive behaviour is the fourth leading cause of death globally. For every person who dies as a result of violence, there are many more people injured and suffer from a wide variety of physical, psychological, and sexual problems due to nonfatal aggressive behaviours\n\n
+
+Symptoms: \n\n
+
+Aggression may accompany other symptoms that vary depending on the underlying disease, disorder or condition. Conditions that frequently affect behaviour may also have other psychological, cognitive or physical symptoms. \n\n
+
+Psychological and cognitive symptoms that may occur along with aggression\n\n
+
+Aggression may accompany other psychological or cognitive symptoms including: \n\n
+
+•	Anxiety, irritability and agitation\n\n
+•	Confusion or forgetfulness\n\n
+•	Depressed or flat mood\n\n
+•	Difficulty with concentration or attention\n\n
+•	Difficulty with memory, thinking, talking, comprehension, writing or reading\n\n
+•	Hallucinations or delusions\n\n
+•	Heightened arousal or awareness\n\n
+•	Personality changes\n\n
+•	Poor judgment\n\n
+•	Sleep disturbances\n\n
+•	Withdrawal or depression\n\n\n
+
+
+Delusion\n\n
+
+A delusion is a fixed false belief based on an inaccurate interpretation of an external reality despite evidence to the contrary. The belief is not congruent with one’s culture or subculture, and almost everyone else knows it to be false. \n\n
+
+The diagnosis of a delusional disorder occurs when a person has one or more non-bizarre (situations that can take place in real life, although not real but are possible) delusional thought for one month or more, that has no explanation by another physiological, substance-induced, medical condition or any other mental health condition. An individual's cultural beliefs merit consideration before coming to the diagnosis. Cultural beliefs also impact the content of delusions. \n\n
+
+Other than the delusions(s) the functionality is not impacted, and behaviour is not obviously bizarre. \n\n
+
+Delusional disorder constitutes between 1% and 4% of all psychiatric admissions, with an incidence of first admissions between 1 and 3/100,000 population per year. \n\n
+
+Some of the most frequently encountered types of delusions are: \n\n
+
+1.	Delusional jealousy: That one’s sexual partner is unfaithful. \n
+2.	Bizarre - A delusion involving a phenomenon that is impossible, not understandable, and unrelated to normal life. \n
+3.	Erotomanic - A delusion that another person, more frequently someone of higher status is in love with the individual. \n\n
+4.	Grandiose - A conviction of great talent, discovery, inflated self-worth, power, knowledge, or relationship with someone famous or deity. \n
+5.	Persecutory - The central theme is being conspired against, attacked, harassed, and obstructed in the pursuit of long-term goals. \n
+6.	Somatic - These involve bodily functions and sensations. \n\n
+7.	Mixed - No single theme is prevalent. \n
+8.	Thought broadcasting - Delusion that one's thought is projected and perceived by others. \n
+9.	Thought insertion - A delusion that one's thought is not one's own but inserted into their mind by an external source or entity. \n\n
+
+Symptoms: \n\n
+
+Early symptoms of delusional disorder may include: \n\n
+
+•	Feelings of being exploited. \n
+•	Preoccupation with the loyalty or trustworthiness of friends. \n
+•	A tendency to read threatening meanings into benign remarks or events. \n
+•	Persistently holding grudges. \n
+•	A readiness to respond and react to perceived slights. \n\n\n
+
+Schizophrenia\n\n
+
+Schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in some combination of hallucinations, delusions, and extremely disordered thinking and behaviour that impairs daily functioning, and can be disabling.
+Schizophrenia affects approximately 24 million people or 1 in 300 people (0.32%) worldwide. This rate is 1 in 222 people (0.45%) among adults. It is not as common as many other mental disorders. Onset is most often during late adolescence and the twenties, and onset tends to happen earlier among men than among women. \n\n
+
+Schizophrenia is frequently associated with significant distress and impairment in personal, family, social, educational, occupational, and other important areas of life. \n\n
+
+Symptoms: \n\n
+
+
+Schizophrenia is characterised by significant impairments in the way reality is perceived and changes in behaviour related to: \n\n
+
+•	Persistent delusions: the person has fixed beliefs that something is true, despite evidence to the contrary. \n
+•	persistent hallucinations: the person may hear, smell, see, touch, or feel things that are not there; \n
+•	Experiences of influence: control or passivity: the experience that one’s feelings, impulses, actions, or thoughts are not generated by oneself, are being placed in one’s mind or withdrawn from one’s mind by others, or that one’s thoughts are being broadcast to others; \n
+•	Disorganized thinking: which is often observed as jumbled or irrelevant speech; \n
+•	Highly disorganised behaviour :e.g. the person does things that appear bizarre or purposeless, or the person has unpredictable or inappropriate emotional responses that interfere with their ability to organise their behaviour; \n
+•	“Negative symptoms” such as very limited speech, restricted experience and expression of emotions, inability to experience interest or pleasure, and social withdrawal; and/or \n
+•	Extreme agitation or slowing of movements, maintenance of unusual postures. \n\n\n
+"
+        android:textColor="#69696F"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout></ScrollView>
+
